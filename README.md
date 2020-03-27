@@ -1,6 +1,6 @@
-#Barista Application
-![](public/img1)
-![](public/img2)
+# Barista Application
+![](public/img1.png)
+![](public/img2.png)
 
 ## Installation
 
