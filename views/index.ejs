@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>Barista App</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container homePage">
+      <h1>Cafe Olé</h1>
+      <p>- check out system online -</p>
+      <div class="jumbotron text-center screen">
+        <form action="/messages" method="post">
+          <input type="text" placeholder="customer name" name="customer" >
+          <input type="text" placeholder="order" name="order" >
+          <button type="submit">Check Out</button>
+        </form>
+        <section>
+          <a href="/login" class="btn btn-default"><span class="fa fa-user"></span> login</a>
+          <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> create new account</a>
+        </section>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
