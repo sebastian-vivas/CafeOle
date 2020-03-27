@@ -1,3 +1,7 @@
+#Barista Application
+![](public/img1)
+![](public/img2)
+
 ## Installation
 
 1. Clone repo
